@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		C78C2005287B687B001A7B47 /* timerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78C2004287B687B001A7B47 /* timerApp.swift */; };
-		C78C2007287B687B001A7B47 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78C2006287B687B001A7B47 /* ContentView.swift */; };
 		C78C2009287B687D001A7B47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C78C2008287B687D001A7B47 /* Assets.xcassets */; };
 		C78C200C287B687D001A7B47 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C78C200B287B687D001A7B47 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -16,10 +15,10 @@
 /* Begin PBXFileReference section */
 		C78C2001287B687B001A7B47 /* timer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = timer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C78C2004287B687B001A7B47 /* timerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = timerApp.swift; sourceTree = "<group>"; };
-		C78C2006287B687B001A7B47 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C78C2008287B687D001A7B47 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C78C200B287B687D001A7B47 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C78C200D287B687D001A7B47 /* timer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = timer.entitlements; sourceTree = "<group>"; };
+		C7F8BF63287B764D0007957E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +51,8 @@
 		C78C2003287B687B001A7B47 /* timer */ = {
 			isa = PBXGroup;
 			children = (
+				C7F8BF63287B764D0007957E /* Info.plist */,
 				C78C2004287B687B001A7B47 /* timerApp.swift */,
-				C78C2006287B687B001A7B47 /* ContentView.swift */,
 				C78C2008287B687D001A7B47 /* Assets.xcassets */,
 				C78C200D287B687D001A7B47 /* timer.entitlements */,
 				C78C200A287B687D001A7B47 /* Preview Content */,
@@ -139,7 +138,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C78C2007287B687B001A7B47 /* ContentView.swift in Sources */,
 				C78C2005287B687B001A7B47 /* timerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,6 +270,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"timer/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = timer/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -297,6 +296,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"timer/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = timer/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
